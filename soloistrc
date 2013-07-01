@@ -4,6 +4,8 @@ recipes:
 - sprout-osx-base::bash_it
 - pivotal_workstation::create_var_chef_cache
 - sprout-osx-base::homebrew
+- sprout-osx-base::user_owns_usr_local
+- sprout-osx-base::workspace_directory
 
 # settings
 - pivotal_workstation::sshd_on
@@ -74,6 +76,7 @@ recipes:
 - sprout-osx-apps::ack
 - sprout-osx-apps::freeruler
 - sprout-osx-apps::heroku_toolbelt
+- sprout-osx-apps::imagemagick
 - sprout-osx-apps::libreoffice
 - sprout-osx-apps::selenium_webdriver
 
