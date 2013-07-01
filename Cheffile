@@ -38,3 +38,7 @@ cookbook 'osx',
 cookbook 'sprout-osx-rubymine',
   :git => 'git://github.com/pivotal-sprout/sprout.git',
   :path => 'sprout-osx-rubymine'
+
+cookbook 'neo_workstation',
+  :git => 'git://github.com/neo/neo_workstation.git'
+
