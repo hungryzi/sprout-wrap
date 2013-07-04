@@ -19,12 +19,8 @@ cookbook 'pivotal_workstation',
   :git => 'git://github.com/pivotal-sprout/sprout.git',
   :path => 'pivotal_workstation'
 
-# Point to fork until pull requests go through
-# https://github.com/pivotal-sprout/sprout/pull/29
-# https://github.com/pivotal-sprout/sprout/pull/41
 cookbook 'sprout-osx-apps',
-  :git => 'git://github.com/xaethos/sprout.git',
-  :ref => 'neo_sprout',
+  :git => 'git://github.com/pivotal-sprout/sprout.git',
   :path => 'sprout-osx-apps'
 
 cookbook 'sprout-osx-settings',
@@ -45,6 +41,5 @@ cookbook 'sprout-osx-rubymine',
 
 # Point to branch until it gets merged back into master
 cookbook 'neo_workstation',
-  :git => 'git://github.com/neo/neo_workstation.git',
-  :ref => 'sprout'
+  :git => 'git://github.com/neo/neo_workstation.git'
 
