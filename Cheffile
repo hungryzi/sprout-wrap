@@ -41,5 +41,5 @@ cookbook 'sprout-osx-rubymine',
 
 # Point to branch until it gets merged back into master
 cookbook 'neo_workstation',
-  :git => 'git://github.com/neo/neo_workstation.git'
+  :git => 'git://github.com/hungryzi/neo_workstation.git'
 

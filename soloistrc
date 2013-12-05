@@ -28,7 +28,6 @@ recipes:
 - pivotal_workstation::postgres
 - sprout-osx-apps::imagemagick
 - sprout-osx-apps::node_js
-- sprout-osx-apps::qt
 
 # apps
 - pivotal_workstation::screen_sharing_app
@@ -60,7 +59,6 @@ recipes:
 - sprout-osx-rubymine::preferences
 
 # Neo specific
-- sprout-osx-base::user_owns_usr_local
 
 - sprout-osx-settings::disable_front_row
 - sprout-osx-settings::enable_assistive_devices
@@ -76,23 +74,20 @@ recipes:
 - sprout-osx-apps::ack
 - sprout-osx-apps::freeruler
 - sprout-osx-apps::heroku_toolbelt
-- sprout-osx-apps::imagemagick
 - sprout-osx-apps::libreoffice
 - sprout-osx-apps::selenium_webdriver
 
 - pivotal_workstation::bash4
 - pivotal_workstation::bash_completion
 - pivotal_workstation::default_editor
-- pivotal_workstation::flycut
+- sprout-osx-apps::flycut
 - pivotal_workstation::increase_shared_memory
-- pivotal_workstation::java
+- sprout-osx-apps::java
 - pivotal_workstation::keyboard_preferences
 - pivotal_workstation::osx_updates
 - pivotal_workstation::rvm
 - pivotal_workstation::screen_sharing_on
-- pivotal_workstation::set_screensaver_preferences
 - pivotal_workstation::timemachine_preferences
-- pivotal_workstation::vim
 - pivotal_workstation::wget
 
 - neo_workstation::monospace_fonts
@@ -100,6 +95,11 @@ recipes:
 - neo_workstation::rubymine_preferences
 - neo_workstation::rename_machine
 - neo_workstation::terminal_solarized_settings
+- neo_workstation::spectacle
+- neo_workstation::skitch
+- neo_workstation::vim_config
+- neo_workstation::qt
+- neo_workstation::set_screensaver_preferences
 
 node_attributes:
   git_pairs_domain: neo.com
@@ -111,3 +111,5 @@ node_attributes:
     -
       - sprout-wrap
       - https://github.com/neo/sprout-wrap.git
+  tmux_conf_file_url: https://raw.github.com/tomazy/dotfiles/master/home/.tmux.conf
+
