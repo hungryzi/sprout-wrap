@@ -5,9 +5,9 @@ SITE
     homebrew (1.5.2)
 
 GIT
-  remote: git://github.com/hungryzi/neo_workstation.git
+  remote: git://github.com/neo/neo_workstation.git
   ref: master
-  sha: 9be1b558a695590104c732cd3152fed9d595b2a6
+  sha: 53563034e484b6deb2a1b7ae9020f34111247a1b
   specs:
     neo_workstation (1.0.0)
       dmg (>= 0.0.0)
