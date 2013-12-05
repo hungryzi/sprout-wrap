@@ -95,8 +95,6 @@ recipes:
 - neo_workstation::rubymine_preferences
 - neo_workstation::rename_machine
 - neo_workstation::terminal_solarized_settings
-- neo_workstation::spectacle
-- neo_workstation::skitch
 - neo_workstation::vim_config
 - neo_workstation::qt
 - neo_workstation::set_screensaver_preferences
@@ -112,4 +110,9 @@ node_attributes:
       - sprout-wrap
       - https://github.com/neo/sprout-wrap.git
   tmux_conf_file_url: https://raw.github.com/tomazy/dotfiles/master/home/.tmux.conf
+  sprout:
+    homebrew:
+      casks:
+      - skitch
+      - spectacle
 
